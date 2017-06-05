@@ -8,14 +8,14 @@
 
   <!-- Title -->
   
-  <title>Under Construction - Betsy Rowley</title>
+  <title>The Club - Betsy Rowley</title>
 
   <!--Favicon-->
   <link rel="icon" href="favicon/favicon.ico">
 
   <!--Description-->
   
-      <meta name="description" content="Content coming soon!">
+      <meta name="description" content="The ClubThe Club is a full-stack web application that serves as a social platform for book clubs. It creates a central location for club members to co">
   
 
   <!--Author-->
@@ -77,13 +77,73 @@
 
   		<div class="row">
   			<div class="col-12 mb-4">
-  <img class="img-fluid project-img" src="/hexo-blog//images/ClubLogin.png" alt="Under Construction">
+  <img class="img-fluid project-img" src="/hexo-blog//images/ClubLogin.png" alt="The Club">
 </div>
 <div class="col-lg-4 col-12 pt-3 px-4 pr-lg-5">
-  <h1>Under Construction</h1>
+  <h1>The Club</h1>
 </div>
 <div class="col-lg-8 col-12 pt-lg-3 mb-4 pl-lg-5 px-lg-0 px-4 portfolio-content">
-  <p>Content coming soon!</p>
+  <h1 id="The-Club"><a href="#The-Club" class="headerlink" title="The Club"></a><a href="https://the-club.herokuapp.com" target="_blank" rel="external">The Club</a></h1><p>The Club is a full-stack web application that serves as a social platform for book clubs. It creates a central location for club members to communicate, as well as track current and past books they have read.</p>
+<p>Upon logging in, each member is able to share thoughts, articles, events, videos and resources with other members via the message board.</p>
+<p>Additionally, all members have the same view of the featured current book that the group has selected and the Archive of all past books that have been read and discussed.</p>
+<p>Individually, members are able to add other books of interest to their personal “Night Stand”. These books could be recommendations received from other members or books they have come across that they might want to chose when it is their turn to select the book.</p>
+<h2 id="Application-Features"><a href="#Application-Features" class="headerlink" title="Application Features"></a>Application Features</h2><h3 id="Message-Board"><a href="#Message-Board" class="headerlink" title="* Message Board"></a>* Message Board</h3><p><img src="images/MessageBoard.png" alt="Message Board"></p>
+<h3 id="Book-Search-with-results-from-Open-Library-Books-api"><a href="#Book-Search-with-results-from-Open-Library-Books-api" class="headerlink" title="* Book Search with results from Open Library Books api"></a>* Book Search with results from Open Library Books api</h3><p><img src="images/BookFinder.png" alt="Book Finder"></p>
+<h3 id="Spotlight-Featured-Book-of-the-Month"><a href="#Spotlight-Featured-Book-of-the-Month" class="headerlink" title="* Spotlight (Featured Book of the Month)"></a>* Spotlight (Featured Book of the Month)</h3><p><img src="images/Spotlight.png" alt="Spotlight"></p>
+<h3 id="Archive-All-books-read-and-discussed-by-the-club"><a href="#Archive-All-books-read-and-discussed-by-the-club" class="headerlink" title="* Archive (All books read and discussed by the club)"></a>* Archive (All books read and discussed by the club)</h3><p><img src="images/Archive.png" alt="Archive"></p>
+<h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.</p>
+<h3 id="Prerequisites"><a href="#Prerequisites" class="headerlink" title="Prerequisites"></a>Prerequisites</h3><p>You will need to have the following software installed.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Node.js (https://nodejs.org/en/)</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">PostgreSql (https://launchschool.com/blog/how-to-install-postgresql-on-a-mac)</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Postico (https://eggerapps.at/postico/)</div></pre></td></tr></table></figure>
+<h3 id="Installing"><a href="#Installing" class="headerlink" title="Installing"></a>Installing</h3><p>Steps to get the development environment running.</p>
+<ol>
+<li>Clone the repository to your local machine.</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/BetsyRowley/the_club.git</div></pre></td></tr></table></figure>
+<ol>
+<li>Install all dependencies.</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install</div></pre></td></tr></table></figure>
+<ol>
+<li>Ensure PostgreSql is running.</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew services start postgresql</div></pre></td></tr></table></figure>
+<ol>
+<li>Start Grunt.</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">grunt</div></pre></td></tr></table></figure>
+<ol>
+<li>Spin up the Server.</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm start</div></pre></td></tr></table></figure>
+<ol>
+<li>Open in the browser.</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">localhost:8000</div></pre></td></tr></table></figure>
+<h2 id="Built-With"><a href="#Built-With" class="headerlink" title="Built With"></a>Built With</h2><ul>
+<li>PostgreSql</li>
+<li>Express.js</li>
+<li>AngularJS</li>
+<li>Node.js</li>
+<li>Grunt</li>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>Bootstrap</li>
+<li>Heroku</li>
+<li>Heroku Postgres</li>
+<li>Passport.js</li>
+<li><a href="https://openlibrary.org/dev/docs/api/books" target="_blank" rel="external">Open Library Books API</a></li>
+</ul>
+<h2 id="Documentation"><a href="#Documentation" class="headerlink" title="Documentation"></a>Documentation</h2><p><a href="https://docs.google.com/document/d/1ak0J5unG9HHWWuefwKQ6NKXOXi7Oth97aYg4_sPRnNc/edit?usp=sharing" target="_blank" rel="external">Scope Document</a>.</p>
+<h2 id="Authors"><a href="#Authors" class="headerlink" title="Authors"></a>Authors</h2><ul>
+<li><a href="https://github.com/BetsyRowley" target="_blank" rel="external"><strong>Betsy Rowley</strong></a></li>
+</ul>
+<h2 id="Acknowledgments"><a href="#Acknowledgments" class="headerlink" title="Acknowledgments"></a>Acknowledgments</h2><ul>
+<li>Prime Digital Academy Instructor Kris Dszafranski for providing the Passport Code Base.</li>
+<li>Prime Digital Academy Instructors Chris Black, Scott Bromander, and Luke Schlangen for their on-going support.</li>
+<li>Center for Ants Book Club for their love of books and inspiration.</li>
+</ul>
 
 </div>
 
